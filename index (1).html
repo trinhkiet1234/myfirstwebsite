@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trịnh Tuấn Kiệt – Hồ sơ cá nhân</title>
+<meta name="description" content="Hồ sơ cá nhân của Trịnh Tuấn Kiệt: giới thiệu, kỹ năng, dự án và liên hệ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef2f7; --ink:#14213d; --muted:#4b5a73; --line:#cdd6e3; --card:#ffffff;
+  --g0:#dfe6ef; --g1:#b7e4c7; --g2:#74c69d; --g3:#2d9b6f; --g4:#14573f;
+  --link:#14573f;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1a2b; --ink:#e8eef7; --muted:#9db0c9; --line:#26364f; --card:#16243a;
+    --g0:#1c2b44; --g1:#1f5a45; --g2:#2d8a64; --g3:#4cc38a; --g4:#a7f0c8; --link:#7fe0b0;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1a2b; --ink:#e8eef7; --muted:#9db0c9; --line:#26364f; --card:#16243a;
+  --g0:#1c2b44; --g1:#1f5a45; --g2:#2d8a64; --g3:#4cc38a; --g4:#a7f0c8; --link:#7fe0b0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.65 "Newsreader",Georgia,serif}
+main{max-width:860px;margin:0 auto;padding:clamp(24px,6vw,72px) 20px 48px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:var(--link)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--g3);outline-offset:3px;border-radius:4px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:56px;font-family:"Bricolage Grotesque",sans-serif;font-size:15px}
+.top nav{display:flex;gap:20px}
+.top a{text-decoration:none;color:var(--muted)}
+.top a:hover{color:var(--ink)}
+#theme{background:none;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:6px 14px;font:inherit;cursor:pointer}
+h1{font-size:clamp(44px,10vw,96px);font-weight:800;letter-spacing:-.03em}
+.role{font-size:clamp(20px,3vw,26px);color:var(--muted);margin:16px 0 28px;max-width:34ch}
+.grid{display:grid;grid-template-columns:repeat(26,1fr);grid-template-rows:repeat(7,1fr);grid-auto-flow:column;gap:4px;margin:40px 0 8px}
+.grid i{aspect-ratio:1;border-radius:3px;background:var(--g0)}
+.grid i[data-l="1"]{background:var(--g1)}.grid i[data-l="2"]{background:var(--g2)}
+.grid i[data-l="3"]{background:var(--g3)}.grid i[data-l="4"]{background:var(--g4)}
+.cap{font-size:15px;color:var(--muted);margin:0 0 72px}
+.links{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font:500 16px "Bricolage Grotesque",sans-serif}
+.btn.main{background:var(--ink);color:var(--bg)}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font-size:30px;margin-bottom:20px}
+.about p{max-width:62ch;margin:0 0 1em}
+.skills{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.skills li{padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font:500 15px "Bricolage Grotesque",sans-serif}
+.projects{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.proj h3{font-size:20px;margin-bottom:8px}
+.proj p{margin:0 0 12px;font-size:16px;color:var(--muted)}
+footer{padding-top:32px;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <span>trinhtuankiet</span>
+    <nav>
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#ky-nang">Kỹ năng</a>
+      <a href="#du-an">Dự án</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+    <button id="theme" type="button" aria-label="Đổi giao diện sáng/tối">Sáng/Tối</button>
+  </header>
+
+  <h1>Trịnh Tuấn Kiệt</h1>
+  <p class="role">Sinh viên Công nghệ thông tin, đang học làm web và phân tích dữ liệu.</p>
+  <div class="https://www.facebook.com/share/1jJgJMBVj8/">
+    <a class="btn main" href="#lien-he">Liên hệ với mình</a>
+    <a class="btn" href="https://github.com/trinhkiet1234">GitHub</a>
+  </div>
+
+  <div class="grid" id="grid" role="img" aria-label="Biểu đồ minh họa hoạt động học tập theo tuần"></div>
+  <p class="cap">26 tuần học và luyện tập gần nhất (dữ liệu minh họa).</p>
+
+  <section id="gioi-thieu" class="about">
+    <h2>Giới thiệu</h2>
+    <p>Mình là sinh viên năm ba tại Thành phố Hồ Chí Minh. Mình thích biến một ý tưởng nhỏ thành sản phẩm chạy được, rồi cải thiện dần qua từng phiên bản.</p>
+    <p>Hiện tại mình đang học HTML, CSS, JavaScript và Python. Mục tiêu năm nay là hoàn thành ba dự án cá nhân và tìm một kỳ thực tập.</p>
+  </section>
+
+  <section id="ky-nang">
+    <h2>Kỹ năng</h2>
+    <ul class="skills">
+      <li>HTML &amp; CSS</li><li>JavaScript</li><li>Python</li><li>Git &amp; GitHub</li><li>SQL</li><li>Tiếng Anh giao tiếp</li>
+    </ul>
+  </section>
+
+  <section id="du-an">
+    <h2>Dự án</h2>
+    <div class="projects">
+      <article class="proj">
+        <h3>Trang theo dõi chi tiêu</h3>
+        <p>Ứng dụng web nhỏ ghi lại thu chi hằng ngày và vẽ biểu đồ theo tháng.</p>
+        <a href="https://github.com/trinhkiet1234/chi-tieu">Xem mã nguồn</a>
+      </article>
+      <article class="proj">
+        <h3>Bot nhắc lịch học</h3>
+        <p>Script Python gửi nhắc nhở lịch học qua email mỗi sáng.</p>
+        <a href="https://github.com/ten-github-cua-ban/bot-nhac-lich">Xem mã nguồn</a>
+      </article>
+      <article class="proj">
+        <h3>Blog học lập trình</h3>
+        <p>Ghi chú những gì mình học mỗi tuần, viết bằng Markdown.</p>
+        <a href="https://github.com/ten-github-cua-ban/blog">Xem mã nguồn</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="lien-he">
+    <h2>Liên hệ</h2>
+    <p>Email: <a href="mailto:kiettrinhtuankiet12@gmail.com">kiettrinhtuankiet12@gmail.com</a><br>
+    GitHub: <a href="https://github.com/trinhkiet1234">github.com/trinhkiet1234</a><br>
+    LinkedIn: <a href="https://www.linkedin.com/in/trinhkiet1234">linkedin.com/in/trinhkiet1234</a></p>
+  </section>
+
+  <footer>© 2026 Trịnh Tuấn Kiệt. Trang này được host bằng GitHub Pages.</footer>
+</main>
+
+<script>
+(function(){
+  // Biểu đồ minh họa: giá trị giả lập, cố định mỗi lần tải
+  var g=document.getElementById('grid'), s=7, out='';
+  for(var i=0;i<26*7;i++){
+    s=(s*9301+49297)%233280;
+    var r=s/233280, l=r<.35?0:r<.6?1:r<.8?2:r<.93?3:4;
+    out+='<i data-l="'+l+'"></i>';
+  }
+  g.innerHTML=out;
+
+  var root=document.documentElement, btn=document.getElementById('theme');
+  try{var t=localStorage.getItem('theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')==='dark' ||
+      (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    var next=dark?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
